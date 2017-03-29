@@ -1,0 +1,22 @@
+#heading, #sub_heading, #instruction{
+    text-align: center;
+}
+h3,h4{
+    font-weight: normal;
+}
+button{
+    border: none;
+    background-color: #FF4500;
+    width:120px;
+    height:60px;
+    transition: background-color 400ms ease-out;
+    margin-bottom:10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family:'Acme';
+    font-size: 17px;
+}
+button:hover{
+    background-color:#FF8C00;
+    cursor: pointer;
+}
