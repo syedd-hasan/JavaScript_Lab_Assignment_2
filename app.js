@@ -88,7 +88,7 @@ function eleventh(){
     var students = ["Hasan", " Mohib", " Qamar", " Asim"];
     var score = [450, 460, 455, 485];
     for(var a = 0; a < students.length; a++){
-        document.write("<p>Score Of "+students[a]+" is "+score[0]+" . Percentage: "+((score[a]/500)*100)+"%</p>");
+        document.write("<p>Score Of "+students[a]+" is "+score[a]+" . Percentage: "+((score[a]/500)*100)+"%</p>");
     }
         document.write("<a href = 'index.html'><button>Go Back</button></a>");
 }
